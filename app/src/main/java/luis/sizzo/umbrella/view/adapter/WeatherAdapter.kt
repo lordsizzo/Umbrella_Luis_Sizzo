@@ -2,12 +2,10 @@ package luis.sizzo.umbrella.view.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.view.LayoutInflater
-import android.view.ViewGroup
+import android.view.*
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
-import luis.sizzo.umbrella.common.Utilities
-import luis.sizzo.umbrella.common.toast
+import luis.sizzo.umbrella.common.*
 import luis.sizzo.umbrella.databinding.ItemWeatherBinding
 import luis.sizzo.umbrella.model.remote.Weather
 import kotlin.math.roundToInt

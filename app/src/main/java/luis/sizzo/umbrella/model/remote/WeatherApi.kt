@@ -1,11 +1,9 @@
 package luis.sizzo.umbrella.model.remote
 
 import luis.sizzo.umbrella.common.*
-import retrofit2.Call
-import retrofit2.Retrofit
+import retrofit2.*
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.GET
-import retrofit2.http.Query
+import retrofit2.http.*
 
 interface WeatherApi{
 

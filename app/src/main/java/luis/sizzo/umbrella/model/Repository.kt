@@ -3,9 +3,7 @@ package luis.sizzo.umbrella.model
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import luis.sizzo.umbrella.common.WEATHER_TOKEN
-import luis.sizzo.umbrella.model.remote.WeatherApi
-import luis.sizzo.umbrella.model.remote.WeatherCityResponse
-import luis.sizzo.umbrella.model.remote.WeatherResponse
+import luis.sizzo.umbrella.model.remote.*
 
 class Repository {
 

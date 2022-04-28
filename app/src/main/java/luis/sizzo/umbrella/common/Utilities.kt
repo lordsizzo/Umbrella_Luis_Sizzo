@@ -2,16 +2,13 @@ package luis.sizzo.umbrella.common
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.location.Address
-import android.location.Geocoder
+import android.location.*
 import android.os.Build
 import androidx.annotation.RequiresApi
 import luis.sizzo.umbrella.R
 import luis.sizzo.umbrella.model.local.WeatherLocal
-import java.text.DateFormat
-import java.text.ParseException
-import java.text.SimpleDateFormat
-import java.time.LocalDateTime
+import java.text.*
+import java.time.*
 import java.time.format.DateTimeFormatter
 import java.util.*
 import kotlin.math.roundToInt

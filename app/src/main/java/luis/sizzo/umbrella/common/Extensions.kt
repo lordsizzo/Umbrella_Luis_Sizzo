@@ -3,7 +3,6 @@ package luis.sizzo.umbrella.common
 import android.app.Activity
 import android.content.Context
 import android.view.View
-import android.widget.ListAdapter
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.recyclerview.widget.GridLayoutManager

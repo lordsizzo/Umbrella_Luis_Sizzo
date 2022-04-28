@@ -2,16 +2,13 @@ package luis.sizzo.umbrella.view
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.os.Build
-import android.os.Bundle
+import android.os.*
 import android.util.Log
 import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.GridLayoutManager
 import com.squareup.picasso.Picasso
-import luis.sizzo.umbrella.R
 import luis.sizzo.umbrella.common.*
 import luis.sizzo.umbrella.databinding.ActivityMainBinding
 import luis.sizzo.umbrella.model.local.WeatherLocal

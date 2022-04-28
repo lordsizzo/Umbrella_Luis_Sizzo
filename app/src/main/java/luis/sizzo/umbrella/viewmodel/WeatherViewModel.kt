@@ -1,18 +1,11 @@
 package luis.sizzo.umbrella.viewmodel
 
-import android.os.Handler
-import android.os.Looper
+import android.os.*
 import android.util.Log
-import android.widget.Toast
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+import androidx.lifecycle.*
+import kotlinx.coroutines.*
 import luis.sizzo.umbrella.model.Repository
-import luis.sizzo.umbrella.model.remote.WeatherCityResponse
-import luis.sizzo.umbrella.model.remote.WeatherResponse
+import luis.sizzo.umbrella.model.remote.*
 
 class WeatherViewModel: ViewModel() {
 
