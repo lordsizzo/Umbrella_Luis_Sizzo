@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SettingsLayoutActivity">
+    <include layout="@layout/toolbar" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayoutSettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".view.SettingsLayoutActivity">
+        <LinearLayout
+            android:id="@+id/settingZip"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true">
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zip"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/settingZipText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/grey_500"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck"
+                tools:text="44250" />
+        </LinearLayout>
+
+        <View
+            android:layout_margin="10dp"
+            android:background="@color/shuffle_grey"
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            tools:ignore="SmallSp" />
+
+
+        <LinearLayout
+            android:id="@+id/settingUnits"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/units"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/settingUnitsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/grey_500"
+                android:textSize="15sp"
+                tools:ignore="TextContrastCheck"
+                tools:text="Fahrenheit" />
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</LinearLayout>
