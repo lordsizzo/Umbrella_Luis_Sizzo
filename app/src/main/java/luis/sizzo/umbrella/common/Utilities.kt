@@ -111,8 +111,8 @@ class Utilities {
             in 500..531 -> R.color.blue_grey
             in 600..622 -> R.color.blue_lightness
             in 700..781 -> R.color.blue_grey
-            in 799..800 -> R.color.red_fruit
-            in 801..804 -> R.color.deep_purple
+            in 799..800 -> R.color.blue
+            in 801..804 -> R.color.red_fruit
             else -> R.color.blue_lightness
         }
         return color

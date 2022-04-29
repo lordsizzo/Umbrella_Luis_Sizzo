@@ -112,7 +112,6 @@ class MainActivity : AppCompatActivity() {
                             WeatherAdapter(list, this@MainActivity).apply {
                                 bindingMain.rvWeather.configRecycler(this)
                             }
-
                             bindingMain.llWeatherToday.visibility = View.VISIBLE
                         } else {
                             bindingMain.llWeatherToday.visibility = View.GONE

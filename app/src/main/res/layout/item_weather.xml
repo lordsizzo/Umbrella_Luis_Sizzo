@@ -2,14 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:layout_margin="5dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/tvTime"
         android:gravity="center"
-        android:padding="5dp"
+        android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="9:00 p.m."/>
@@ -24,9 +24,9 @@
         tools:src="@mipmap/ic_launcher" />
 
     <TextView
+        android:layout_marginBottom="25dp"
         android:id="@+id/tvTemp"
         android:gravity="center"
-        android:padding="5dp"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_width="match_parent"
