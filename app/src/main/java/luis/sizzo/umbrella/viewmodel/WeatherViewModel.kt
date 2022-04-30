@@ -24,6 +24,7 @@ class WeatherViewModel: ViewModel() {
             Repository().weatherCityCatched(zipCode, zipCountry, units).let { result ->
                 items = result
             }
+            Log.d("WeatherViewModel", "getCityWeather: $items")
 
             Handler(Looper.getMainLooper()).post {
                 try {

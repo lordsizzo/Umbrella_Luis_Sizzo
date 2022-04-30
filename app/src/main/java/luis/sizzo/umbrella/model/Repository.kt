@@ -1,5 +1,6 @@
 package luis.sizzo.umbrella.model
 
+import android.util.Log
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.async
 import luis.sizzo.umbrella.common.WEATHER_TOKEN
@@ -31,6 +32,7 @@ class Repository {
             } ?: run {
                 items = null
             }
+        Log.d("Repository", "catchWeatherCityRetrofit: $items")
         return items
     }
 
@@ -44,6 +46,8 @@ class Repository {
             } ?: run {
             items = null
         }
+        Log.d("Repository", "catchWeatherResponseRetrofit: $items")
+
         return items
     }
 }
